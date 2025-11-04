@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Home, Car, Utensils, Wrench, ShoppingBasket, Pill, Package, Briefcase, Megaphone, AlertTriangle, Train } from 'lucide-react';
+import { Home, Car, Utensils, Wrench, ShoppingCart, Pill, Package, Briefcase, Megaphone, AlertTriangle, Train } from 'lucide-react';
 
 const SERVICES = [
   { key: 'stay', label: 'Book Stay', icon: Home, color: 'from-emerald-500 to-emerald-600' },
   { key: 'taxi', label: 'Book Taxi', icon: Car, color: 'from-sky-500 to-sky-600' },
   { key: 'food', label: 'Order Food', icon: Utensils, color: 'from-amber-500 to-amber-600' },
   { key: 'repair', label: 'Vehicle Repair', icon: Wrench, color: 'from-slate-500 to-slate-700' },
-  { key: 'groceries', label: 'Groceries', icon: ShoppingBasket, color: 'from-lime-500 to-lime-600' },
+  { key: 'groceries', label: 'Groceries', icon: ShoppingCart, color: 'from-lime-500 to-lime-600' },
   { key: 'meds', label: 'Medicines', icon: Pill, color: 'from-rose-500 to-rose-600' },
   { key: 'products', label: 'Ooty Products', icon: Package, color: 'from-fuchsia-500 to-violet-600' },
   { key: 'jobs', label: 'Jobs in Ooty', icon: Briefcase, color: 'from-indigo-500 to-indigo-600' },
